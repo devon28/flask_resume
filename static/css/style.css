@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "kaushanscript";
+    src: url('./fonts/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('./fontskaushanscript/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e3e2e1;
+}
+h1, h2, h3, nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+.links {
+    color: black;
+    font-weight: bold;    
+}
+.links:hover {
+    background-color: navy;
+    color: white;
+}
+#header_bar {
+    color: white;
+    background-color: #151a15;
+    font-family: Arial, Helvetica, sans-serif;   
+    height: 4vh;
+    margin: 0;
+}
+nav {
+    float: right;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 1vh;
+    padding-right: 4vw;
+}
+.navigation {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 130%;
+}
+a {
+    color: #95bd95;
+    
+}
+#main_page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+#cover_image {
+    width: 100vw;
+    height: auto;
+    border-bottom: 15px solid #151a15;
+    border-left: 10px solid #151a15;
+    border-right: 10px solid #151a15;
+}
+#name_on_cover {
+    z-index: 5;
+    color: blanchedalmond;
+    position: relative;
+    left: 8em;
+    bottom: 6.5em;
+    font-size: 300%;
+    padding: 0;
+    line-height: 1.2em;
+    margin: 0;
+    font-family: cursive;
+}
+#name_text_box {
+   float:left;
+}
+#bio_section, #projects_section, .main_page, #resume_section{
+    min-height: 70vh;
+}
+#contact_section {
+    min-height: 90vh;
+}
+.main_pages {
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color: #fcfffd;
+}
+a {
+    text-decoration: none;
+}
+.outer_bio {
+    text-align: center;
+}
+#inner_bio {
+    display: inline-block;
+    text-align: left;
+    width: 30vw;
+}
+#resume_section {
+    align-items: center;
+    text-align: center;
+}
+.resume_headings {
+    margin-top: .55em;
+    margin-bottom: .55em;
+}
+.resume_cs {
+    width: 30vw;
+}
+#outer_resume {
+    text-align: center;
+    font-size: .95em;
+}
+#inner_resume {
+    display: inline-block;
+    text-align: left;
+}
+.resume_element {
+    margin-bottom: .25em;
+}
+.date {
+    float: right;
+}
+#projects_section {
+    text-align: center;
+}
+#inner_projects {
+    display: inline-block;
+    text-align: left;
+    width: 55vw;
+}
+a:hover {
+    background-color: white;
+}
+#contact_section {
+    text-align: center;
+}
+#in_logo {
+    height: 3.5vh;
+    width: 2vw;
+}
+#send_email {
+    color: white;
+    background-color: #151a15;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+#send_email:hover {
+    background-color: white;
+    color: #151a15;
+}
+
+
+  
+ 

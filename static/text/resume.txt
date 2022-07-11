@@ -1,0 +1,45 @@
+    <h3 class="resume_headings"> Education </h3>
+    <div class="resume_element"><b> Oregon State University </b>
+    <div class="date"> ..........2021-present </div>
+    <br /> BS Computer Science<br />
+    GPA: 3.9 <br />/div>
+    <b> University of Tennessee </b>
+    <div class="date"> ..........2021-present </div>
+    <br /> BA Kinesiology<br />
+    GPA: 3.55 <br />
+
+    <h3 class="resume_headings"> Work Experience </h3>
+    <div class="resume_element"><b> Oregon State University </b>
+    <div class="date"> ..........2022-present </div>
+    <br /> Teaching Assustant - Algorithm Analysis<br />
+    I hold office hours to explain conepts to students and <br />
+    I grade papers <br /></div>
+
+    <b> Ka Lani Massage Specialists </b>
+    <div class="date"> ..........2020-present </div>
+    <br /> Licensed Massage Therapist <br />
+    I helped clients get past injuries and releive pain <br />
+
+    <h3 class="resume_headings"> CS Courses and Languages </h3>
+    <div class="resume_cs">
+    <div class="resume_element"><b> Python </b><br />
+    I’ve used python to create a 650-line board game, 700-line audio processing application using system calls along with using python in the courses Data Structures, Algorithm Analysis and have used flask on my own <br /></div>
+    
+    <b> JavaScript, MYSQL </b><br />
+    Node and JavaScript was my language of choice in web development when creating a MERN app to track workouts. I created a database for tracking local crime with JavaScript UI and MYSQL back end </div>
+    
+    <h3 class="resume_headings"> Other Experience and Volunteering </h3>
+    
+    <div class="resume_element"><b> Special Olympics, Durham NH </b>
+    <div class="date"> ..................2010 </div>
+    <br /> I helped participants get to events and provided enthusiasm <br /></div>
+    
+    <div class="resume_element"><b> Global Medical Training - Panama medical mission trip </b> 
+    <div class="date"> ..................2015 </div>
+    <br /> I helped doctors treat local people in rural panama villages <br /> who otherwise dont have acces to medical care <br /></div>
+    
+    <b> High School Golf - Coaches award </b>
+    <div class="date"> ..................2010 </div>
+    <br /> I played 3 years of varsity golf for the state runner up team and <br /> recieved the coaches award 
+  
+

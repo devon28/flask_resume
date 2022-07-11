@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Devon Miller </title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+<header>
+    <div id="header_bar">
+    <nav>
+    <a href="#main_page" classname="navigation" > Top </a>|
+    <a href="#bio_section" classname="navigation" > Bio </a>|
+    <a href="#resume_section" classname="navigation" > Resume </a>|
+    <a href="#projects_section" classname="navigation" > Projects </a>|
+    <a href="#contact_section" classname="navigation" > Contact </a></nav>
+    </div>
+</header>
+<main>
+    <div id="main_page">
+    <img src="./static/img/cover_image.jpeg" alt="Bio Picture" id="cover_image" >
+    </div>
+    <div id="name_text_box">
+    <h1 id="name_on_cover"> Devon <br /> Miller </h1>
+    </div>
+    
+    <div class="main_pages">
+    <div id="bio_section">
+    <p>-----------------------------------------------------------------------------------------------</p>
+    <h2> My Journey </h2>
+    <div class="outer_bio">
+    <div id="inner_bio">
+    <p>{{bio}}</p>
+    </div>
+    </div></div>
+
+    <div id="resume_section">
+     <p>-----------------------------------------------------------------------------------------------</p>
+  
+    <h2> Resume </h2>
+    --------View and download pdf by clicking<a href="./static/pdf/Devon_miller_resume.pdf" target="_blank" class="links"> HERE </a> ---------
+
+    <div id="outer_resume">
+    <div id="inner_resume">
+    <p>{{resume}}</p>
+    </div></div></div>
+   
+    <div id="projects_section">
+     <p>-----------------------------------------------------------------------------------------------</p>
+    <h2> Projects </h2>
+    Here are some of my projects from classes and on my own
+    <div id="innerr_projects">
+    <h4> Data Bases </h4>
+    <div id="inner_projects">Here I created a database driven application with a javascript front end and 
+    a MYSQL back end. This supports one to many many to one and many to many relationships. 
+    When a change is made the correponding changes cascade, here is a video demo of the UI, 
+    and the CRUD operations shown on their own table and for tables in which they are a foreign Key.</div>
+    <p><video height="300" controls preload="metadata">
+    <source src="./static/videos/video_demo.mp4#t=0.5" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></p>
+    You can see the source code by clicking <a href="https://github.com/devon28/Wheelies_DataBases_Portfolio" target="_blank" class="links">HERE</a></p>
+    
+    <h4> Data Structures </h4>
+    <div id="inner_projects">In data structures I implimented trees, graphs and my portfolio project was a Hash Table. 
+    The Hash table is a dynamic array of where each index is a linked list. </div>
+    <p>You can view my code in GitHub by clicking <a href="https://github.com/devon28/Data_Structures" target="_blank" class="links">HERE</a></p>
+    
+    <h4> Algorithm Analysis </h4>
+    <div id="inner_projects">In algorithm analysis I analyzed the asymptotic runtime of different alrorithms, the portfolio  
+    question in this class was creating a graph traversal program for the following scenerio: <br />
+    
+    You are given a 2-D puzzle of size MxN, that has N rows and M column (M and N can be 
+    different). Each cell in the puzzle is either empty or has a barrier. An empty cell is marked by 
+    ‘-’ (hyphen) and the one with a barrier is marked by ‘#’. You are given two coordinates from 
+    the puzzle (a,b) and (x,y). You are currently located at (a,b) and want to reach (x,y). You can 
+    move only in the following directions. <br /><br />
+    L: move to left cell from the current cell <br />
+    R: move to right cell from the current cell <br />
+    U: move to upper cell from the current cell <br />
+    D: move to the lower cell from the current cell <br /><br />
+ 
+    You can move to only an empty cell and cannot move to a cell with a barrier in it. Your goal  
+    is to reach the destination cells covering the minimum number of cells as you travel from the 
+    starting cell.</div>  
+    <p>You can view my code in GitHub by clicking <a href="https://github.com/devon28/Algorithm_Analysis" target="_blank" class="links">HERE</a></p>
+
+    <h4> Web Development </h4>
+    <div id="inner_projects">I learned javascript in this course and the final project was a MERN application with a mongo db 
+    backend with a react front end. The application is a workout log that supports CRUD operations, 
+    below is a video demo of my application running locally performing crud operations. </div>
+    <p><video height="300" controls preload="metadata">
+    <source src="./static/videos/exercise_video_demo.mp4#t=0.5" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></p>
+    You can see the source code by clicking <a href="https://github.com/devon28/Web_Development_MERN_App"
+"   target="_blank" class="links">HERE</a></p>
+
+    <h4> Software Engineering </h4>
+    <div id="inner_projects">In this course I worked as part of a team having my own project and I connected to team members
+    microservices. My application gives information about dog breeds, local parks and does basic audo 
+    analysis to convert dog barks into a series of english phrases for select breeds. It uses a team 
+    members wikipedia scraper to return facts about the selecte breed, my google scraper to return three 
+    local parks and does audo conversion to translate the phrase. The purpose of this application was to 
+    gain experience in a team and get used to the remote communication of it thus I used python gui. Below 
+    is a video demonstration of my project:</div>
+    <p><video height="300" controls preload="metadata">
+    <source src="./static/videos/dog_app_video_demo.mp4#t=0.5" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></p>
+    <p>You can see the source code by clicking <a href="https://github.com/devon28/dog_app"
+"   target="_blank" class="links">HERE</a></p>
+
+    <h4> Introduction to Computer Science </h4>
+    <div id="inner_projects"> This was one of my first courses and I did weekly projects to learn python and basics of 
+    computer science. This final project is a two player board game "Quoridor" which is a well known 
+    game fully implimented and playable. As of right now I have not built to UI however that will b 
+    coming soon. Below is the github link to source code and a more detailed explaination fo the game: </div>
+    <p>You can see the source code by clicking <a href="https://github.com/devon28/Quoridor_Intro_to_CS_II"
+"   target="_blank" class="links">HERE</a></p>
+
+    <h4> Connect Four Project </h4>
+    <div id="inner_projects"> This is a project I did myself outside of class, I wanted to make myself familiar with 
+    flask and the mechanics of implimenting a UI to a python program. The game performs move validation 
+    tracks the player and after each move checks if theres a winner. If the game has been won the user is 
+    moved to a "winner" screen with a logo of the winning side, blue or red. Below is a video demonstration: </div>
+     <p><video height="300" controls preload="metadata">
+    <source src="./static/videos/connect_4_video_demo.mp4#t=0.5" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></p>
+    <p>You can see the source code by clicking <a href="https://github.com/devon28/connect_4"
+"   target="_blank" class="links">HERE</a></p>
+    </div></div>
+   
+  <div id="contact_section">
+   <p>-----------------------------------------------------------------------------------------------</p>
+  <h2 id="contact">Contact</h1>
+   <p> United States, New Hampshire </p>
+  <p> 603-767-8972 </p> 
+  <a id="send_email" href="mailto:devonmiller4623@gmail.com">
+   Send Email </a>
+  <p><a href="http://www.linkedin.com/in/devon-miller-887a43214" target="_blank"><img src="./static/img/linkedin.png" alt="in logo"  id="in_logo"></a></p>
+  </div></div>
+</main>
+</body>
+</html>
