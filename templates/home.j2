@@ -23,44 +23,57 @@
     <div id="name_text_box">
     <h1 id="name_on_cover"> Devon <br /> Miller </h1>
     </div>
-    
+
     <div class="main_pages">
     <div id="bio_section">
-    <p>-----------------------------------------------------------------------------------------------</p>
+    <p class="page_break">-----------------------------------------------------------------------------------------------</p>
     <h2> My Journey </h2>
     <div class="outer_bio">
     <div id="inner_bio">
     <p>{{bio}}</p>
-    </div>
-    </div></div>
+    </div></div></div>
 
     <div id="resume_section">
-     <p>-----------------------------------------------------------------------------------------------</p>
+     <p class="page_break">-----------------------------------------------------------------------------------------------</p>
   
     <h2> Resume </h2>
-    --------View and download pdf by clicking<a href="./static/pdf/Devon_miller_resume.pdf" target="_blank" class="links"> HERE </a> ---------
+    <p id="resume_link">--------View and download pdf by clicking<a href="./static/pdf/Devon_miller_resume.pdf" target="_blank" class="links"> HERE </a> ---------</p>
 
     <div id="outer_resume">
     <div id="inner_resume">
     <p>{{resume}}</p>
-    </div></div></div>
+    </div></div></div></div>
    
     <div id="projects_section">
-     <p>-----------------------------------------------------------------------------------------------</p>
+     <p class="page_break">-----------------------------------------------------------------------------------------------</p>
     <h2> Projects </h2>
     Here are some of my projects from classes and on my own
-    <div id="innerr_projects">
+    <div id="outer_projects">
     <h4> Data Bases </h4>
     <div id="inner_projects">Here I created a database driven application with a javascript front end and 
     a MYSQL back end. This supports one to many many to one and many to many relationships. 
     When a change is made the correponding changes cascade, here is a video demo of the UI, 
     and the CRUD operations shown on their own table and for tables in which they are a foreign Key.</div>
-    <p><video height="300" controls preload="metadata">
-    <source src="./static/videos/video_demo.mp4#t=0.5" type="video/mp4">
+    <p><video height="300" controls >
+    <source src="./static/videos/wheelies_trimmed.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video></p>
     You can see the source code by clicking <a href="https://github.com/devon28/Wheelies_DataBases_Portfolio" target="_blank" class="links">HERE</a></p>
     
+     <h4> Quoridor and Introduction to Computer Science </h4>
+    <div id="inner_projects"> This was my introduction to computer science II where I made small python projects each
+    week and a larger one as the final project. the final project is a pyton version of the game quoridor 
+    at the time I wrote it it was 650 lines. A year later after taking data structuresa and algorithms I re created
+    the same project using python with a flask UI. This time it was 260 lines with all operations, place fence, move
+    pawn and supporting functions all runing in constant time.  You can see a video demo and the source code below. </div>
+    <p><video height="300" controls >
+    <source src="./static/videos/quoridor_cropped.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></p>
+    <p><a href="https://github.com/devon28/quoridor_flask" target="_blank" class="links"> Revised Soure Code</a>
+    <a href="https://github.com/devon28/Quoridor_Intro_to_CS_II"
+"   target="_blank" class="links"> Origional Source Code </a></p>
+
     <h4> Data Structures </h4>
     <div id="inner_projects">In data structures I implimented trees, graphs and my portfolio project was a Hash Table. 
     The Hash table is a dynamic array of where each index is a linked list. </div>
@@ -90,7 +103,7 @@
     backend with a react front end. The application is a workout log that supports CRUD operations, 
     below is a video demo of my application running locally performing crud operations. </div>
     <p><video height="300" controls preload="metadata">
-    <source src="./static/videos/exercise_video_demo.mp4#t=0.5" type="video/mp4">
+    <source src="./static/videos/exercise_trimmed.mp4#t=0.5" type="video/mp4">
     Your browser does not support the video tag.
     </video></p>
     You can see the source code by clicking <a href="https://github.com/devon28/Web_Development_MERN_App"
@@ -105,19 +118,12 @@
     gain experience in a team and get used to the remote communication of it thus I used python gui. Below 
     is a video demonstration of my project:</div>
     <p><video height="300" controls preload="metadata">
-    <source src="./static/videos/dog_app_video_demo.mp4#t=0.5" type="video/mp4">
+    <source src="./static/videos/dog_app_trimmed_cropped.mp4#t=0.5" type="video/mp4">
     Your browser does not support the video tag.
     </video></p>
     <p>You can see the source code by clicking <a href="https://github.com/devon28/dog_app"
 "   target="_blank" class="links">HERE</a></p>
 
-    <h4> Introduction to Computer Science </h4>
-    <div id="inner_projects"> This was one of my first courses and I did weekly projects to learn python and basics of 
-    computer science. This final project is a two player board game "Quoridor" which is a well known 
-    game fully implimented and playable. As of right now I have not built to UI however that will b 
-    coming soon. Below is the github link to source code and a more detailed explaination fo the game: </div>
-    <p>You can see the source code by clicking <a href="https://github.com/devon28/Quoridor_Intro_to_CS_II"
-"   target="_blank" class="links">HERE</a></p>
 
     <h4> Connect Four Project </h4>
     <div id="inner_projects"> This is a project I did myself outside of class, I wanted to make myself familiar with 
@@ -125,7 +131,7 @@
     tracks the player and after each move checks if theres a winner. If the game has been won the user is 
     moved to a "winner" screen with a logo of the winning side, blue or red. Below is a video demonstration: </div>
      <p><video height="300" controls preload="metadata">
-    <source src="./static/videos/connect_4_video_demo.mp4#t=0.5" type="video/mp4">
+    <source src="./static/videos/connect_four_trimmed.mp4#t=0.5" type="video/mp4">
     Your browser does not support the video tag.
     </video></p>
     <p>You can see the source code by clicking <a href="https://github.com/devon28/connect_4"
@@ -133,9 +139,9 @@
     </div></div>
    
   <div id="contact_section">
-   <p>-----------------------------------------------------------------------------------------------</p>
+   <p class="page_break">-----------------------------------------------------------------------------------------------</p>
   <h2 id="contact">Contact</h1>
-   <p> United States, New Hampshire </p>
+   <p> New Hampshire </p>
   <p> 603-767-8972 </p> 
   <a id="send_email" href="mailto:devonmiller4623@gmail.com">
    Send Email </a>

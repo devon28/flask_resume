@@ -31,7 +31,7 @@ header {
     color: white;
     background-color: #151a15;
     font-family: Arial, Helvetica, sans-serif;   
-    height: 4vh;
+    height: 4.5vh;
     margin: 0;
 }
 nav {
@@ -167,7 +167,83 @@ a:hover {
     background-color: white;
     color: #151a15;
 }
+@media screen and (max-width: 1100px) {
+    #name_on_cover {
+        left: 6.2em;
+        bottom: 5.5em;
+    }
+    #inner_bio {
+        width: 50vw;
+    }
+    .page_break {
+        font-size: .75em;
+        font-weight: bold;
+} 
+@media screen and (max-width: 900px) {
+    #name_on_cover {
+        left: 5.8em;
+        bottom: 5.3em;
+        font-size: 2.4em;
+    }
+    #main_page, #projects_section {
+        min-height: 35vh;
+    }
+    #contant_section {
+        height: 70vh;
+    }
+    .resume_cs {
+        width: 68vw;
+    }
+    .page_break {
+        font-size: .5em;
+        font-weight: bold;
+}
+}
+@media screen and (max-width: 700px) {
+    .main_pages {
+        width: 90vw;
+    }
+    #inner_bio {
+        width: 70vw;
+    }
+    #name_on_cover {
+        left: 4.8em;
+        bottom: 4.8em;
+    }
+   #inner_projects {
+    width: 70vw;
+   }
+} 
+@media screen and (max-width: 500px) {
+    #name_on_cover {
+        left: 3.5em;
+        bottom: 4.6em;
+        font-size: 1.9em;
+    }
+    .page_break {
+        font-size: .06em;
+        font-weight: bold;
+}
+    .main_pages {
+        width: 95vw;
+}
+    #inner_resume {
+        padding: 5px;
+    }
+    .resume_cs {
+        width: 78vw;
+    }
+    #resume_link {
+        font-size: .9em;
+    }
+    video {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    #name_on_cover {
+        left: 3em;
+        bottom: 4em;
+    }
+}
 
-
-  
- 
